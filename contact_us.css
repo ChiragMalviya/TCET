@@ -1,0 +1,54 @@
+
+* {
+    font-family: 'Signika Negative', sans-serif;
+    ;
+}
+ /* image of TCET  */
+ .imagemain{
+    display: block;
+    width: 100%;
+    height: 8rem;;
+    margin: auto;
+ }
+
+/* Nav bar  */
+.navback{
+background-color: blue;
+}
+
+#navbarSupportedContent{
+margin: 2px 10%;
+}
+
+#anav{
+padding: 8px 40px;
+color: white;
+font-size: 25px;
+}
+
+.my img {
+    height: 8rem;
+    width: 80%;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(255, 116, 116);
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(0, 0, 67);
+}

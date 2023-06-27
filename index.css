@@ -1,0 +1,146 @@
+/* Font for Whole Page */
+* {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* header section of the website  */
+header {
+    align-items: center;
+    margin: 0px;
+}
+
+/* TCET image on top */
+.navbar img {
+    height: 4cm;
+    width: 100%;
+}
+
+/* Nav bar  */
+.navback{
+    background-color: blue;
+}
+
+#navbarSupportedContent{
+    margin: 2px 10%;
+}
+
+#anav{
+    padding: 8px 40px;
+    color: white;
+    font-size: 25px;
+}
+
+/* main-section  */
+
+/* 3 box container  */
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.Box3 {
+    border: 2px solid red;
+    margin: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.BoxHeading {
+    background-color: tomato;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+/* marquee tag  */
+#mar {
+    max-width: 0px 50px;
+    width: 99%;
+    color: rgb(16 11 154);
+    background-color: rgb(247, 0, 255);
+    font-weight: 900;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#marquee1 {
+    margin-right: 100px;
+}
+
+#marquee2 {
+    margin-left: 200px;
+}
+
+
+/* list of the Department */
+#depeartment {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 40px 0px 10px 0px;
+}
+
+.department-item {
+    font-size: 20px;
+}
+
+.department-item li {
+    margin: 3px;
+}
+
+/* 3 images */
+.mainimage {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.subimage {
+    margin: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/* Media query for Responsiveness  */
+@media (min-width : 600px) and (max-width : 985px) {
+    .container1 {
+        flex-direction: column;
+    }
+
+    .Box3 {
+        width: 90%;
+    }
+
+    .subimage {
+        width: 90%;
+        justify-content: center;
+        height: 300px;
+    }
+}
+
+@media (max-width : 600px) {
+    .container1 {
+        flex-direction: column;
+    }
+
+    .Box3 {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .subimage {
+        width: 90%;
+        justify-content: center;
+        height: 200px;
+    } 
+}

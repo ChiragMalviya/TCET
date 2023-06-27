@@ -1,0 +1,69 @@
+* {
+    font-family: 'Signika Negative', sans-serif;
+    ;
+}
+
+img {
+    width: 100%;
+    height: 120px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+}
+
+.box {
+    padding: 20px;
+    display: block;
+    width: 33%;
+    margin: 3% auto;
+    background-color: rgb(211, 255, 255);
+    border: 2px solid rgb(106, 165, 255);
+}
+
+h2 {
+    padding: 20px;
+    background-color: #f89191;
+    border: 2px solid rgb(106, 165, 255);
+    color: rgb(39, 36, 36);
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 15px 0px 0px 0px;
+}
+
+input {
+    display: block;
+    width: 27vw;
+    padding: 0 1.25rem;
+}
+
+#buton {
+    display: block;
+    margin: auto
+}
+
+#buton:hover {
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+input,
+input::placeholder {
+    font-size: 20px;
+    margin: 0px;
+}
+
+@media (max-width : 985px) {
+    .box {
+        width: 90%;
+    }
+
+    input {
+        display: block;
+        width: 80vw;
+        padding: 0 1.25rem;
+    }
+}

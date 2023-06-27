@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginForm</title>
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <img src="my\image1.jpg" alt=" logo">
+        </div>
+    </header>
+    <div class="container">
+
+        <div class="box">
+            <h2>Login Detail</h2>
+            <form form="login_form" onsubmit="submitform()">
+                <h4>Username</h4>
+                <input type="text" placeholder="Enter your Name/Email id">
+                <h4>Password</h4>
+                <input type="password" placeholder="Enter your password"><br><br>
+                <input id="buton" type="submit" value="Login">
+                <br>
+                <input id="buton" type="button" value="Sign up" onclick="Create()">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function submitform() {
+            alert("Login Successful!")
+        }
+        function Create() {
+            window.location = "signup.html";
+        }
+
+    </script>
+</body>
+
+</html>
